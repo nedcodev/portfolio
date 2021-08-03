@@ -1,0 +1,109 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(243, 243, 243);
+}
+
+.body {
+  padding-left: 270px;
+  padding-top: 120px;
+  margin: 20px;
+}
+
+.intro {
+  font-size: 120px;
+  font-weight: normal;
+  color: rgb(48, 48, 48);
+}
+
+.name {
+  font-weight: bold;
+}
+
+.twitter {
+  color: rgb(48, 48, 48);
+  text-decoration: none;
+  transition: background-size 0.4s ease;
+  background: linear-gradient(transparent 47%, #78d8e9 0) left/0% 100% no-repeat;
+  padding: 0 3px 0 2px;
+  letter-spacing: 0.08rem;
+}
+
+.email {
+  color: rgb(48, 48, 48);
+  text-decoration: none;
+  transition: background-size 0.4s ease;
+  background: linear-gradient(transparent 47%, #eedf57 0) left/0% 100% no-repeat;
+  padding: 0 3px 0 2px;
+  letter-spacing: 0.08rem;
+}
+
+.description {
+  font-size: 30px;
+  color: rgb(61, 61, 61);
+}
+
+.contact {
+  font-size: 25px;
+  color: rgb(61, 61, 61);
+}
+
+.twitter:hover {
+  background-size: 105% 100%;
+  transition-duration: 0.9s;
+  /* transition: 1.5s ease all; */
+  transform: rotate(45deg) translateX(180px);
+}
+
+.email:hover {
+  background-size: 105% 100%;
+  transition-duration: 0.9s;
+}
+
+@media (min-width: 320px) {
+  .body {
+    padding: 25px;
+    margin: 5px;
+  }
+  .intro {
+    font-size: 90px;
+  }
+  .description {
+    font-size: 27px;
+  }
+  .contact {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    font-size: 150px;
+    margin-top: 1px;
+  }
+  .description {
+    font-size: 55px;
+  }
+  .contact {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .body {
+    padding: 135px;
+    margin-top: 80px;
+  }
+  .intro {
+    font-size: 100px;
+    margin-top: 50px;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .contact {
+    font-size: 20px;
+  }
+}
