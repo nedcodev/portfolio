@@ -53,8 +53,19 @@ body {
 .twitter:hover {
   background-size: 105% 100%;
   transition-duration: 0.9s;
-  /* transition: 1.5s ease all; */
   transform: rotate(45deg) translateX(180px);
+}
+
+.emoji {
+  margin-top: -167px;
+}
+
+.wave {
+  /* animation */
+  animation-name: wave-animation;
+  animation-duration: 2.6s;
+  transform-origin: 40% 90%;
+  animation: wave-animation 2.1s 0.6s;
 }
 
 .email:hover {
@@ -62,48 +73,121 @@ body {
   transition-duration: 0.9s;
 }
 
+.wave:hover {
+  animation: wave-animation 2.1s 0.6s infinite;
+  cursor: pointer;
+}
+
+/* Mobile */
 @media (min-width: 320px) {
   .body {
     padding: 25px;
-    margin: 5px;
   }
   .intro {
-    font-size: 90px;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: -5px;
   }
   .description {
-    font-size: 27px;
+    font-size: 130%;
+    margin-top: 50px;
+    margin-left: -5px;
   }
   .contact {
-    font-size: 14px;
+    font-size: 15px;
+    margin-left: -5px;
+  }
+
+  .wave {
+    width: 35px;
+    margin-left: 207px;
+    margin-top: 96px;
   }
 }
 
+/* iPad */
 @media (min-width: 768px) {
+  .body {
+    margin-top: 70px;
+  }
   .intro {
-    font-size: 150px;
-    margin-top: 1px;
+    padding-top: 100px;
+    margin-bottom: 60px;
+    font-size: 70px;
+    margin-left: 62px;
   }
   .description {
-    font-size: 55px;
+    font-size: 30px;
+    margin-left: 62px;
+    width: 80%;
   }
   .contact {
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 62px;
+    width: 80%;
+  }
+
+  .emoji {
+    margin-left: 45px;
+  }
+
+  .wave {
+    width: 70px;
+    margin-left: 387px;
+    margin-top: 23px;
   }
 }
 
+/* Desktop */
 @media (min-width: 1024px) {
   .body {
-    padding: 135px;
-    margin-top: 80px;
+    margin-top: 100px;
+    margin-left: -75px;
   }
   .intro {
     font-size: 100px;
     margin-top: 50px;
+    margin-left: 150px;
   }
   .description {
+    margin-top: 100px;
     font-size: 35px;
+    margin-left: 150px;
   }
   .contact {
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 150px;
+  }
+  .wave {
+    width: 90px;
+    margin-left: 640px;
+    margin-top: -5px;
+  }
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
