@@ -6,16 +6,40 @@ body {
   background-color: rgb(243, 243, 243);
 }
 
-.body {
-  padding-left: 270px;
-  padding-top: 120px;
+nav li {
+  display: inline;
+  padding-right: 15px;
+}
+
+.navbar {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-end;
+  margin: 10px 25px;
+}
+
+.ul-container {
+  list-style-type: none;
+}
+
+.li-container {
+  font-size: 25px;
+  /* font-weight: 699; */
+  text-decoration: none;
+  color: #525252;
+}
+
+.container {
+  /* padding-left: 270px; */
+  /* padding-top: 120px; */
   margin: 20px;
 }
 
 .intro {
   font-size: 120px;
   font-weight: normal;
-  color: rgb(48, 48, 48);
+  /* color: rgb(48, 48, 48); */
+  color: #525252;
 }
 
 .name {
@@ -23,7 +47,8 @@ body {
 }
 
 .twitter {
-  color: rgb(48, 48, 48);
+  /* color: rgb(48, 48, 48); */
+  color: #525252;
   text-decoration: none;
   transition: background-size 0.4s ease;
   background: linear-gradient(transparent 47%, #78d8e9 0) left/0% 100% no-repeat;
@@ -32,7 +57,8 @@ body {
 }
 
 .email {
-  color: rgb(48, 48, 48);
+  /* color: rgb(48, 48, 48); */
+  color: #525252;
   text-decoration: none;
   transition: background-size 0.4s ease;
   background: linear-gradient(transparent 47%, #eedf57 0) left/0% 100% no-repeat;
@@ -42,12 +68,14 @@ body {
 
 .description {
   font-size: 30px;
-  color: rgb(61, 61, 61);
+  /* color: rgb(61, 61, 61); */
+  color: #525252;
 }
 
 .contact {
   font-size: 25px;
-  color: rgb(61, 61, 61);
+  /* color: rgb(61, 61, 61); */
+  color: #525252;
 }
 
 .twitter:hover {
@@ -78,9 +106,18 @@ body {
   cursor: pointer;
 }
 
+.avatar-bg {
+  background-color: #ffd875;
+  width: 50px;
+  height: 50px;
+  display: relative;
+  margin-left: 800px;
+  margin-top: 60px;
+}
+
 /* Mobile */
 @media (min-width: 320px) {
-  .body {
+  .container {
     padding: 25px;
   }
   .intro {
@@ -107,7 +144,7 @@ body {
 
 /* iPad */
 @media (min-width: 768px) {
-  .body {
+  .container {
     margin-top: 70px;
   }
   .intro {
@@ -140,7 +177,7 @@ body {
 
 /* Desktop */
 @media (min-width: 1024px) {
-  .body {
+  .container {
     margin-top: 100px;
     margin-left: -75px;
   }
