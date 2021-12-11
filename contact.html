@@ -39,17 +39,36 @@
 </header>
 
 <main class="l-main">
+
+
+<!-- 
+
+<form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
+ -->
+
   <!--===== CONTACT =====-->
   <section class="contact section" id="contact">
     <!-- <h2 class="section-title">COMING SOON!</h2> -->
     <h2 class="section-title">CONTACT</h2>
 
     <div class="contact__container bd-grid">
-        <form action="" class="contact__form">
+        <form action="" class="contact__form" netlify>
             <input type="text" placeholder="Name" class="contact__input">
-            <input type="mail" placeholder="Email" class="contact__input">
+            <input type="email" placeholder="Email" class="contact__input">
             <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-            <input type="button" value="Submit" class="contact__button button">
+            <!-- <input type="button" value="Submit" class="contact__button button"> -->
+            <button type="submit" class="contact__button button">Submit</button>
         </form>
     </div>
 </section>
