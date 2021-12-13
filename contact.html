@@ -63,12 +63,26 @@
     <h2 class="section-title">CONTACT</h2>
 
     <div class="contact__container bd-grid">
-        <form action="" class="contact__form" netlify>
-            <input type="text" placeholder="Name" class="contact__input">
-            <input type="email" placeholder="Email" class="contact__input">
-            <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-            <!-- <input type="button" value="Submit" class="contact__button button"> -->
+        <form name="contact" method="POST" class="contact__form" data-netlify="true">
+          <p>
+            <label>
+              <input type="text" name="name" placeholder="Name" class="contact__input" />
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="email" name="email" placeholder="Email" class="contact__input" />
+            </label>
+          </p>
+          <p>
+            <label>
+              <textarea name="message" id="" cols="0" rows="10" placeholder="Message" class="contact__input">
+              </textarea>
+            </label>
+          </p>
+          <p>
             <button type="submit" class="contact__button button">Submit</button>
+          </p>
         </form>
     </div>
 </section>
