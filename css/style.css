@@ -27,7 +27,7 @@
   --first-color: #845fe6;
   --second-color: #525252;
   --third-color: #444444;
-  --fourth-color: #f3f3f3;
+  --fourth-color: #cccccc;
   --fifth-color: #FFD875;
   --sixth-color: #FFBD59;
   --seventh-color: #ffffff; 
@@ -36,6 +36,8 @@
   --tenth-color: #ffb03a;
   --eleventh-color: #000000;
   --twelfth-color:  #007bff;
+  --thirteenth-color: #1d1d1d;
+  --fourteenth-color: #b3b3b3;
 }
 
 @media screen and (min-width: 968px) {
@@ -61,7 +63,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background-color: var(--fourth-color);
+  background-color: var(--thirteenth-color);
 }
 
 h1, h2, p {
@@ -111,7 +113,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--fourth-color);
+  background-color: var(--thirteenth-color);
   /* box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15); */
 }
 
@@ -132,7 +134,7 @@ img {
     width: 55%;
     height: auto;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: var(--third-color);
     transition: .5s;
     border-radius: 10px 0 0 10px;
   }
@@ -143,22 +145,33 @@ img {
 }
 .nav-link {
   position: relative;
-  color: #fff;
+  /* color: #fff; */
+  color: var(--fourth-color);
 }
 .nav-link:hover {
   position: relative;
 }
 .nav-link:hover {
-  color: #ffa959;
+  /* color: #ffa959; */
+  color: var(--sixth-color);
   background-size: 105% 100%;
   transition-duration: 0.9s;
   transform: translate(5px) rotate(-2deg);
   transition: all .4s ease-in;
 }
 .nav-logo {
+  color: var(--sixth-color);
+  font-size: 1.2rem;
+  transform: translate(5px) rotate(-2deg);
+}
+/* .nav-code {
   color: var(--second-color);
   font-size: 1.2rem;
-}
+} */
+/* .nav-backslash {
+  color: var(--sixth-color);
+  font-size: 1.2rem;
+} */
 .nav-toggle {
   color: var(--second-color);
   font-size: 1.5rem;
@@ -213,10 +226,10 @@ img {
   align-self: center;
 }
 .home-name-color {
-  color: var(--third-color);
+  color: var(--fourth-color);
 }
 .home-name-color:hover {
-  color: var(--tenth-color);
+  color: var(--sixth-color);
   background-size: 105% 100%;
   transition-duration: 0.9s;
 }
@@ -225,7 +238,7 @@ img {
   margin-bottom: var(--mb-1);
 }
 .home-title-color {
-  color: var(--third-color);
+  color: var(--fourth-color);
   background: linear-gradient(transparent 10%, #FFD875 0) left/0% 100% no-repeat;
 }
 .home-title-color:hover {
@@ -234,7 +247,7 @@ img {
   transition-duration: 0.9s;
 }
 .home-city-color {
-  color: var(--third-color);
+  color: var(--fourth-color);
 }
 .home-city-color:hover {
   color: var(--eighth-color);
@@ -242,7 +255,7 @@ img {
   transition-duration: 0.9s;
 }
 .home-country-color {
-  color: var(--third-color);
+  color: var(--fourth-color);
 }
 .home-country-color:hover {
   color: var(--ninth-color);
@@ -290,7 +303,7 @@ img {
 }
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
-  color: var(--seventh-color);
+  color: var(--second-color);
   background-color: var(--sixth-color);
 }
 
@@ -301,9 +314,11 @@ img {
 }
 .about-subtitle {
   margin-bottom: -20px;
+  color: var(--fourth-color);
 }
 .about-text {
   font-size:  18px;
+  color: var(--fourteenth-color);
 }
 .about-title {
   font-size: var(--big-font-size);
@@ -360,6 +375,7 @@ img {
 }
 .projects-img-description {
   margin-top: 20px;
+  color: var(--fourteenth-color);
 }
 .projects-img-marketplace {
   font-weight: 700;
@@ -367,10 +383,10 @@ img {
   margin-top: 10px;
 }
 .project-link-title {
-  color: var(--second-color);
+  color: var(--fourth-color);
 }
 .project-link {
-  color: var(--second-color);
+  color: var(--fourth-color);
   transition: background-size 0.4s ease;
   background:
    linear-gradient(
