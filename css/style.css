@@ -35,6 +35,7 @@
   --ninth-color: #c00000;
   --tenth-color: #ffb03a;
   --eleventh-color: #000000;
+  --twelfth-color:  #007bff;
 }
 
 @media screen and (min-width: 968px) {
@@ -310,6 +311,7 @@ img {
 }
 .about-title-color {
   color: var(--sixth-color);
+  /* color: var(--twelfth-color); */
 }
 .about-data {
   margin-top: 100px;
@@ -337,9 +339,9 @@ img {
 }
 .projects-title-arrow:hover {
   transition: all .2s ease-in-out;
-  transition-duration: 0.9s;
+  transition-duration: .3s;
   transform: translate(5px);
-  color: var(--tenth-color);
+  color: var(--twelfth-color);
 }
 .projects-img{
   box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2); 
@@ -364,6 +366,9 @@ img {
   font-size: 15px;
   margin-top: 10px;
 }
+.project-link-title {
+  color: var(--second-color);
+}
 .project-link {
   color: var(--second-color);
   transition: background-size 0.4s ease;
@@ -379,6 +384,23 @@ img {
       background-size: 105% 100%;
       transition-duration: 0.9s;
 }
+
+.projects-language {
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #007bff;
+  border: #007bff solid 1px;
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+
+/* .projects-language:hover {
+  background-color: var(--fifth-color);
+  background-size: 105% 100%;
+  transition-duration: 0.9s;
+} */
 
 
 /*===== CONTACT =====*/
