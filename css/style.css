@@ -299,16 +299,18 @@ img {
 /*===== BUTTONS =====*/
 .button {
   display: inline-block;
-  background-color: var(--third-color);
+  background-color: var(--thirteenth-color);
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
   color: var(--second-color);
   background-color: var(--fifteenth-color);
+  /* transition: .5s; */
 }
 
 /*===== ABOUT =====*/
@@ -431,18 +433,52 @@ img {
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
   padding: 1rem;
-  border-radius: .5rem;
+  border-radius: .3rem;
   border: 1.5px solid var(--second-color);
   outline: none;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
+  background-color: var(--thirteenth-color);
+  color: var(--fourteenth-color);
+  resize: vertical;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .contact-button {
   display: block;
-  border: none;
+  /* border: none; */
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  border: var(--second-color) solid 1px;
+}
+.contact-bio {
+  font-size: var(--normal-font-size);
+  color: var(--fourth-color);
+  margin-bottom: var(--mb-2);
+  margin-top: -10px;
+}
+.contact-twitter {
+  color: var(--fourth-color);
+  display: flex;
+  justify-content: center;
+}
+.contact-twitter-link {
+  color: var(--twelfth-color);
+  text-decoration: none;
+  font-weight: var(--font-semi);
+  background: linear-gradient(transparent 10%, #007bff 0) left/0% 100% no-repeat;
+}
+.contact-twitter-link:hover {
+  color: var(--seventh-color);
+  background-size: 105% 100%;
+  transition-duration: 0.9s;
+}
+.char-count {
+  font-size: var(--smaller-font-size);
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 15px;
+  margin-top: -10px;
 }
 
 /*===== FOOTER =====*/

@@ -24,3 +24,25 @@ function linkAction() {
   navMenu.classList.remove('show');
 }
 navLink.forEach((n) => n.addEventListener('click', linkAction));
+
+/*===== CONTACT-TEXTAREA =====*/
+
+let textArea = document.getElementById('textbox');
+let characterCounter = document.getElementById('char_count');
+const maxNumOfChars = 100;
+
+const countCharacters = () => {
+  let numOfEnteredChars = textArea.value.length;
+  let counter = maxNumOfChars - numOfEnteredChars;
+  characterCounter.textContent = counter + '/100';
+
+  if (counter < 0) {
+    characterCounter.style.color = 'var(--ninth-color)';
+  } else if (counter < 20) {
+    characterCounter.style.color = 'var(--fifteenth-color)';
+  } else {
+    characterCounter.style.color = 'var(--second-color)';
+  }
+};
+
+textArea.addEventListener('input', countCharacters);
