@@ -452,6 +452,10 @@ img {
   border: var(--second-color) solid 1px;
 }
 .contact-bio {
+    /* display: flex; */
+  /* justify-content: center; */
+  display: block;
+  text-align: center;
   font-size: var(--normal-font-size);
   color: var(--fourth-color);
   margin-bottom: var(--mb-2);
@@ -459,8 +463,10 @@ img {
 }
 .contact-twitter {
   color: var(--fourth-color);
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  display: block;
+  text-align: center;
 }
 .contact-twitter-link {
   color: var(--twelfth-color);
