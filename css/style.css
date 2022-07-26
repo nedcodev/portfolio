@@ -444,7 +444,6 @@ img {
 }
 .contact-button {
   display: block;
-  /* border: none; */
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
@@ -452,8 +451,6 @@ img {
   border: var(--second-color) solid 1px;
 }
 .contact-bio {
-    /* display: flex; */
-  /* justify-content: center; */
   display: block;
   text-align: center;
   font-size: var(--normal-font-size);
@@ -463,8 +460,6 @@ img {
 }
 .contact-twitter {
   color: var(--fourth-color);
-  /* display: flex; */
-  /* justify-content: center; */
   display: block;
   text-align: center;
 }
