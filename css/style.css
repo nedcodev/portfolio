@@ -132,7 +132,7 @@ img {
     position: fixed;
     top: var(--header-height);
     right: -100%;
-    width: 55%;
+    /* width: 55%; */
     height: auto;
     padding: 2rem;
     background-color: var(--third-color);
@@ -140,7 +140,6 @@ img {
     border-radius: 10px 0 0 10px;
   }
 }
-
 .nav-item {
   margin-bottom: var(--mb-4);
 }
@@ -160,6 +159,16 @@ img {
   transition-duration: 0.9s;
   transform: translate(5px) rotate(-2deg);
   transition: all .4s ease-in;
+}
+/* TESTING */
+.nav-close {
+  font-size: 2rem;
+  position: absolute;
+  top: .9rem;
+  right: 1.25rem;
+  cursor: pointer;
+  color: red;
+  border: #c00000 solid 1px;
 }
 .nav-logo {
   /* color: var(--sixth-color); */
@@ -181,6 +190,7 @@ img {
   cursor: pointer;
 }
 
+
 /*=== ACTIVE MENU ===*/
 .active::after {
   position: absolute;
@@ -197,7 +207,7 @@ img {
 }
 
 /*=== VIEW MENU ===*/
-.show {
+.show-menu {
   right: 0;
 }
 
@@ -348,6 +358,10 @@ img {
 
 
 /*===== PROJECTS =====*/
+.project-title {
+  margin-top: 100px;
+  margin-bottom: -50px;
+}
 .projects-img-title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -428,6 +442,10 @@ img {
 
 
 /*===== CONTACT =====*/
+.contact-title {
+  font-size: 50px;
+  margin-top: -90px;
+}
 .contact-input {
   width: 100%;
   font-size: var(--normal-font-size);
@@ -493,7 +511,8 @@ img {
   bottom: 0;
   width: 100%; 
   padding-top: var(--mb-7);
-  margin-top:calc(5% + 60px);
+  /* margin-top:calc(5% + 60px); */
+  margin-top:calc(5% + 15px);
 }
 .footer-title {
   font-size: 2rem;
@@ -624,7 +643,8 @@ img {
     margin-left: var(--mb-4);
     margin-bottom: 0;
   }
-  .nav-toggle {
+  .nav-toggle,
+  .nav-close {
     display: none;
   }
   .nav-link {
@@ -645,7 +665,10 @@ img {
   }
   .about-img img {
     width: 300px;
-  } 
+  }
+  .contact-title {
+    margin-top: -45px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -665,6 +688,12 @@ img {
   .home-title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-1);
+  }
+  .contact-title {
+    margin-top: -45px;
+  }
+  .footer {
+    margin-top: 45px;
   }
 }
 

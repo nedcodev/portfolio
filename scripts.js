@@ -1,15 +1,23 @@
-/*===== MENU SHOW =====*/
-const showMenu = (toggleId, navId) => {
-  const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId);
+/*=============== SHOW MENU ===============*/
+const navMenu = document.getElementById('nav-menu'),
+  navToggle = document.getElementById('nav-toggle'),
+  navClose = document.getElementById('nav-close');
 
-  if (toggle && nav) {
-    toggle.addEventListener('click', () => {
-      nav.classList.toggle('show');
-    });
-  }
-};
-showMenu('nav-toggle', 'nav-menu');
+/*===== MENU SHOW =====*/
+//  Validate if constant exists
+if (navToggle) {
+  navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show-menu');
+  });
+}
+
+/*===== MENU HIDDEN =====*/
+//  Validate if constant exists
+if (navClose) {
+  navClose.addEventListener('click', () => {
+    navMenu.classList.remove('show-menu');
+  });
+}
 
 /*===== ACTIVE AND REMOVE MENU =====*/
 const navLink = document.querySelectorAll('.nav-link');
@@ -46,3 +54,8 @@ const countCharacters = () => {
 };
 
 textArea.addEventListener('input', countCharacters);
+
+// let toggle = document.querySelector('.nav-toggle');
+// toggle.addEventListener('click', function () {
+//   toggle.classList.toggle('is-active');
+// });
