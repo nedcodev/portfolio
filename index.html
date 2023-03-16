@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" type="image/png" href="./img/favicon.ico"/>
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
   <title>Ned Marafawi | Front End Developer</title>
 </head>
 
@@ -18,20 +21,30 @@
   <header class="l-header">
     <nav class="nav bd-grid">
       <div>
-          <a href="index.html" class="nav__logo">NEDCODE</a>
+          <!-- <a href="index.html" class="nav-logo">
+            <img src="img/favicon.ico">
+          </a> -->
+          <a href="index.html" class="nav-logo">N</a>
+          <!-- <a href="index.html" class="nav-backslash">/</a> -->
+          <!-- <a href="index.html" class="nav-code">code</a> -->
       </div>
 
-      <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-              <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
-              <li class="nav__item"><a href="/about.html" class="nav__link">About</a></li>
-              <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
-              <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+      <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+              <li class="nav-item"><a href="index.html" class="nav-link active">HOME</a></li>
+              <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+              <li class="nav-item"><a href="projects.html" class="nav-link">PROJECTS</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
           </ul>
+
+          <div class="nav-close" id="nav-close">
+            <!-- &#10799; -->
+            <!-- <span class="fa fa-solid fa-rectangle-xmark"></span> -->
+          </div>
       </div>
 
-      <div class="nav__toggle" id="nav-toggle">
-        <i class="uil uil-align-justify"></i>
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="uil uil-align-right"></i>
       </div>
     </nav>
   </header>
@@ -39,65 +52,65 @@
   <main class="l-main">
     <!--===== HOME =====-->
     <section class="home bd-grid" id="home">
-      <div class="home__data">
-          <h1 class="home__title">
+      <div class="home-data">
+          <h1 class="home-title">
             Hi, I'm
-            <span class="home__name-color">
+            <span class="home-name-color">
               Ned
             </span>
             <span class="emoji" id="wave">
               <img class="wave"  src="/img/wave-hand.png">
             </span>
-            <span class="home__title-color">
+            <span class="home-title-color">
               Frontend Developer
-            <span>
-            </h1>
-          <h2 class="home__title-description">
+            </span>
+          </h1>
+            
+          <h2 class="home-title-description">
             Based out of
-            <span class="home__city-color">Montreal</span>, 
-            <span class="home__country-color">Canada</span>.
+            <span class="home-city-color">Montreal</span>, 
+            <span class="home-country-color">Canada</span>.
           </h2>
-          <!-- <a href="#" class="button">Contact</a> -->
       </div>
 
       
       <!--===== SOCIAL MEDIA =====-->
-      <div class="home__social">
+      <div class="home-social">
           <a 
           href="https://www.linkedin.com/in/nedmarafawi/"
           target="_blank"
-          class="home__social-icon"
+          class="home-social-icon"
           >
             <i class="uil uil-linkedin-alt"></i>
           </a>
           <a 
           href="https://twitter.com/nedmarafawi" 
           target="_blank" 
-          class="home__social-icon"
+          class="home-social-icon"
           >
             <i class="uil uil-twitter-alt"></i>
             </a>
           <a 
           href="https://github.com/nedmarafawi" 
           target="_blank" 
-          class="home__social-icon"
+          class="home-social-icon"
           >
             <i class="uil uil-github-alt"></i>
           </a>
           <a 
           href="https://www.instagram.com/nedmarafawi/"
           target="_blank" 
-          class="home__social-icon"
+          class="home-social-icon"
           >
             <i class="uil uil-instagram"></i>
           </a>
       </div>
       
       <!--===== AVATAR IMAGE =====-->
-      <div class="home__img bd-grid">
+      <!-- <div class="home__img bd-grid">
         <img src="/img/frontend-thumbnail.png" alt="">
       </div>
-      <!-- <div class="home__bg"></div> -->
+      <div class="home__bg"></div> -->
     </section>
   </main>
   

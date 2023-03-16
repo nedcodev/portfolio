@@ -18,20 +18,20 @@
  <header class="l-header">
     <nav class="nav bd-grid">
       <div>
-          <a href="index.html" class="nav__logo">NEDCODE</a>
+        <a href="index.html" class="nav-logo">N</a>
       </div>
 
-      <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-              <li class="nav__item"><a href="index.html" class="nav__link ">Home</a></li>
-              <li class="nav__item "><a href="about.html" class="nav__link ">About</a></li>
-              <li class="nav__item"><a href="projects.html" class="nav__link ">Projects</a></li>
-              <li class="nav__item"><a href="contact.html" class="nav__link active">Contact</a></li>
+      <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+              <li class="nav-item"><a href="index.html" class="nav-link ">HOME</a></li>
+              <li class="nav-item "><a href="about.html" class="nav-link ">ABOUT</a></li>
+              <li class="nav-item"><a href="projects.html" class="nav-link ">PROJECTS</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link active">CONTACT</a></li>
           </ul>
       </div>
 
-      <div class="nav__toggle" id="nav-toggle">
-        <i class="uil uil-align-justify"></i>
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="uil uil-align-right"></i>
       </div>
     </nav>
   </header>
@@ -39,52 +39,44 @@
 
   <!--===== CONTACT =====-->
   <main class="l-main">
-    <section class="contact section" id="contact">
-      <h2 class="section-title">CONTACT</h2>
+    <section class="contact section " id="contact">
+      <div class="about-data">
+      <h2 class="contact-title section-title ">CONTACT</h2>
 
-      <div class="contact__container bd-grid">
-        <form name="contact" method="POST" class="contact__form" data-netlify="true">
-          <p>
-            <label>
-              <input type="text" name="name" placeholder="Name" class="contact__input" />
-            </label>
-          </p>
-          <p>
-            <label>
-              <input type="email" name="email" placeholder="Email" class="contact__input" />
-            </label>
-          </p>
-          <p>
-            <label>
-              <textarea name="message" id="" cols="0" rows="10" placeholder="Message" class="contact__input">
-              </textarea>
-            </label>
-          </p>
-          <p>
-            <button type="submit" class="contact__button button">Submit</button>
-          </p>
+      <div class="contact-container bd-grid">
+        <p class="contact-bio">Fill out this quick form and I'll get back to you as soon as I can!
+        <br>
+          <span class="contact-twitter">You can also send me a direct message on&nbsp;<a class="contact-twitter-link" href="https://twitter.com/nedmarafawi" target="_blank" >Twitter</a>
+          </span>
+        </p>
+        <form name="contact" method="POST" class="contact-form" data-netlify="true">
+              <input type="text" name="name" placeholder="Name" class="contact-input" required/>
+              <input type="email" name="email" placeholder="Email" class="contact-input" required/>
+              <textarea name="" id="textbox" cols="0" rows="10" placeholder="Write something..." class="contact-input" style="min-height: 10em;"  required/></textarea>
+              <span id="char_count" class="char-count">250/250</span>
+            <button type="submit" class="contact-button button">SEND</button>
         </form>
       </div>
+    </div>
     </section>
   </main>
 
       <!--===== FOOTER =====-->
       <footer class="footer">
-        <!-- <p class="footer__title">Ned</p> -->
-        <div class="footer__social">
-            <a href="https://www.linkedin.com/in/nedmarafawi/" target="_blank" class="footer__icon">
+        <!-- <div class="footer-social">
+            <a href="https://www.linkedin.com/in/nedmarafawi/" target="_blank" class="footer-icon">
               <i class="uil uil-linkedin-alt"></i>
             </a>
-            <a href="https://twitter.com/nedmarafawi" target="_blank" class="footer__icon">
+            <a href="https://twitter.com/nedmarafawi" target="_blank" class="footer-icon">
               <i class="uil uil-twitter-alt"></i>
             </a>
-            <a href="https://github.com/nedmarafawi" target="_blank" class="footer__icon">
+            <a href="https://github.com/nedmarafawi" target="_blank" class="footer-icon">
               <i class="uil uil-github-alt"></i>
             </a>
-            <a href="https://www.instagram.com/nedmarafawi/" target="_blank"   class="footer__icon">
+            <a href="https://www.instagram.com/nedmarafawi/" target="_blank"   class="footer-icon">
               <i class="uil uil-instagram"></i>
             </a>
-        </div>
+        </div> -->
         <p>&#169; Design & Developed by Ned Marafawi, 2022</p>
       </footer>
 
