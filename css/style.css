@@ -9,6 +9,7 @@
   --second-color: hsl(var(--hue-color), 56%, 12%);
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
@@ -395,8 +396,27 @@ img {
 }
 
 /*===== BLOG =====*/
+.blog-list {
+  font-size: var(--h1-font-size);
+  color: var(--fourth-color);
+  /* margin-bottom: var(--mb-2); */
+  text-decoration: none;
+}
+
+.blog-date {
+  display: inline-block;
+  /* justify-content: space-around; */
+  padding-right: 1.5rem;
+  font-size: var(--normal-font-size);
+  color: var(--second-color);
+
+
+  margin-top: var(--mb-2);
+  text-decoration: none;
+}
+
 .blog1 {
-  text-align: center;
+  /* text-align: center; */
   font-size: var(--normal-font-size);
   color: var(--fourth-color);
   margin-bottom: var(--mb-2);
