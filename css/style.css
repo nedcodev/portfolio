@@ -489,7 +489,7 @@ img {
 
 .blog-text-subtitle {
   margin-top: var(--mb-4);
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-2);
   font-size: var(--h2-font-size);
   color: var(--fourth-color);
   /* text-align: center; */
