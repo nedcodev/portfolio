@@ -671,12 +671,14 @@ img {
   color: var(--second-color);
   text-align: center;
   font-weight: var(--font-semi);
+  font-size: 12px;
   height: auto;
   left: 0;
   bottom: 0;
   width: 100%;
   padding-top: var(--mb-7);
   margin-top: calc(5% + 15px);
+  margin-bottom: var(--mb-4);
 }
 
 /* .footer {
@@ -691,17 +693,18 @@ img {
 .footer-title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+  /* margin-top: var(--mb-4); */
 }
 
 .footer-social {
   /* margin-bottom: var(--mb-2); */
-  margin-bottom: .5rem;
+  margin-bottom: .3rem;
 }
 
 .footer-icon {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--second-color);
-  margin: 0 var(--mb-2);
+  margin: 5px;
 }
 
 .footer-icon:hover {
