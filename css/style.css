@@ -59,6 +59,13 @@
   box-sizing: border-box;
 }
 
+::selection {
+  /* Change highlight background color to black */
+  background: #ffdc16;
+  /* Change highlight text color to red */
+  color: #000000;
+}
+
 html {
   scroll-behavior: smooth;
 }
