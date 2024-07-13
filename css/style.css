@@ -362,6 +362,7 @@ iconify-icon {
   transform: translateY(5px); */
 }
 
+
 .home-social-icon {
   width: max-content;
   /* margin-bottom: var(--mb-2);
@@ -451,7 +452,37 @@ iconify-icon {
   border-radius: .5rem;
 }
 
+.about-coffee {
+  font-size: small;
+}
+.about-coffee-icon {
+  width: max-content;
+  /* margin-bottom: var(--mb-2); */
+  /* margin-right: 1.2rem; */
+  margin-bottom: var(--mb-4);
+
+  font-size: small;
+
+  color: var(--fifteenth-color);
+
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; */
+}
+
+.about-coffee-icon:hover {
+  color: var(--second-color);
+  /* transition-duration: 0.9s;
+  transition: all .3s ease-in;
+  transform: translateY(5px); */
+}
+
+
 /*===== BLOG =====*/
+
+
+
 .blog-list {
   font-size: var(--h1-font-size);
   color: var(--fourth-color);
