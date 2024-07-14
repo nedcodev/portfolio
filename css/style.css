@@ -540,7 +540,7 @@ iconify-icon {
   margin-left: auto;
   margin-right: auto;
   width:80% ;
-font-size: 15px;
+font-size: 14px;
 }
 
 .blog-img-description {
@@ -568,6 +568,7 @@ font-size: 15px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 800;
+  /* font-size: large; */
 }
 
 .blog-link-title-page {
@@ -640,6 +641,7 @@ font-size: 15px;
 .blog-posted-page {
   color: var(--second-color);
   display: inline-block;
+  /* height:-5px; */
 }
 
 .blog-date-page {
@@ -651,6 +653,7 @@ font-size: 15px;
   font-size: 12px;
   color: var(--second-color);
   display: inline-block;
+
 }
 
 .blog-author-name {
