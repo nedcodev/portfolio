@@ -491,7 +491,6 @@ iconify-icon {
   font-size: 23px;
   font-weight: 400;
   color: var(--second-color);
-  text-align: center;
 }
 
 .blog-title-heading {
@@ -521,6 +520,9 @@ iconify-icon {
   display: flex;
   position: relative;
   overflow: hidden;
+  width:80% ;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blog-img img {
@@ -532,19 +534,47 @@ iconify-icon {
   transform: scale(1.1);
 } */
 
+.blog-thumbnail-description {
+  margin-top: 20px;
+  color: var(--fourteenth-color);
+  margin-left: auto;
+  margin-right: auto;
+  width:80% ;
+font-size: 15px;
+}
+
 .blog-img-description {
   margin-top: 20px;
   color: var(--fourteenth-color);
+  margin-left: auto;
+  margin-right: auto;
+  width:90% ;
+font-size: 15px;
 }
 
 .blog-img-marketplace {
   font-weight: 700;
   font-size: 15px;
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:80% ;
+
 }
 
 .blog-link-title {
   color: var(--fourth-color);
+  width:80% ;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+}
+
+.blog-link-title-page {
+  color: var(--fourth-color);
+  /* width:80% ; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blog-link {
@@ -826,15 +856,15 @@ iconify-icon {
   font-weight: 501;
   height: 36px;
   justify-content: center;
-  letter-spacing: .0892857em;
+  /* letter-spacing: .0892857em; */
   line-height: normal;
-  min-width: 64px;
+  /* min-width: 64px; */
   outline: none;
   overflow: visible;
   /* padding: 0 16px; */
-  padding: 0 16px;
-  position: relative;
-  text-align: center;
+  /* padding: 0 16px; */
+  /* position: relative; */
+  /* text-align: center; */
   text-decoration: none;
   text-transform: uppercase;
   transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
@@ -842,7 +872,10 @@ iconify-icon {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
-  will-change: transform, opacity;
+  /* will-change: transform, opacity; */
+  /* width:80% ; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-61:hover {
