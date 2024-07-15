@@ -548,7 +548,7 @@ iconify-icon {
   color: var(--fourteenth-color);
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
   font-size: 15px;
 }
 
@@ -666,6 +666,13 @@ iconify-icon {
   color: var(--fifteenth-color);
 }
 
+.blog-single-page-footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 13px;
+}
+
 
 /* Blog - Product Link */
 .blog-product-link {
@@ -677,6 +684,44 @@ iconify-icon {
 .blog-product-link:hover {
   color: var(--fifteenth-color);
 }
+
+/* Call To Action */
+.blog-product-link-CTA {
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100%; */
+  text-align: center;
+  display: block;
+  line-height: 32px;
+}
+
+
+.blog-title-arrow {
+  position: relative;
+  display: inline-block;
+  /* margin-bottom: 5px; */
+  color: var(--second-color);
+}
+
+.blog-title-arrow:hover {
+  transition: all .2s ease-in-out;
+  transition-duration: .3s;
+  transform: translate(5px);
+  color: var(--fifteenth-color);
+}
+
+
+.blog-CTA-link {
+  /* margin-top: 20px; */
+  color: var(--fourteenth-color);
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 80%; */
+  font-size: 15px;
+  display: inline-block;
+}
+
+
 
 .blog-thumbnail-page {
   margin-top: 10px;
@@ -708,11 +753,11 @@ iconify-icon {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 65%;
   margin-bottom: 2px;
   margin-top: 2px;
   display: block;
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
 }
 
@@ -1209,6 +1254,11 @@ iconify-icon {
   .about-title {
     font-size: 60px;
   }
+  .blog-CTA-link {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
 
 
 }
@@ -1234,6 +1284,11 @@ iconify-icon {
   .about-title {
     font-size: 60px;
   }
+  .blog-CTA-link {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
 
 
 }
@@ -1244,6 +1299,12 @@ iconify-icon {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+  }
+
+  .blog-CTA-link {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
   }
 
   .project {
@@ -1346,6 +1407,10 @@ iconify-icon {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+  }
+
+  .blog-CTA-link {
+    display: inline-block;
   }
 
   .project {
