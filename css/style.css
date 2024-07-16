@@ -543,9 +543,10 @@ iconify-icon {
 }
 
 .blog-header-title {
-  font-size: 20px;
+  font-size: 45px;
   color: var(--fourteenth-color);
   font-weight: 550;
+  text-align: center;
 }
 
 .blog-thumbnail-description {
@@ -628,9 +629,7 @@ iconify-icon {
   /* color: #ffa959; */
   /* color: var(--second-color); */
   color: var(--fifteenth-color);
-
   background-size: 105% 100%;
-
 }
 
 .blog-title-single-page:hover {
@@ -687,6 +686,9 @@ iconify-icon {
   font-size: 13px;
 }
 
+.highlight {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #000000 50%);
+}
 
 /* Blog - Product Link */
 .blog-product-link {
