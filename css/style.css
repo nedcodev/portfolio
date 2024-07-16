@@ -538,14 +538,14 @@ iconify-icon {
 .blog-h1-title {
   font-size: 18px;
   color: var(--fourteenth-color);
-font-weight: 550;
-margin-bottom: -16px;
+  font-weight: 550;
+  margin-bottom: -16px;
 }
 
 .blog-header-title {
   font-size: 20px;
   color: var(--fourteenth-color);
-font-weight: 550;
+  font-weight: 550;
 }
 
 .blog-thumbnail-description {
@@ -851,13 +851,11 @@ font-weight: 550;
 
 .blog-img-page-container {
   display: block;
-
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   margin-bottom: 24px;
   margin-top: 24px;
-
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   border-radius: 8px 8px 8px 8px;
   overflow: hidden;
@@ -1328,6 +1326,7 @@ font-weight: 550;
   .about-title {
     font-size: 60px;
   }
+
   .blog-CTA-link {
     margin-left: auto;
     margin-right: auto;
@@ -1358,6 +1357,7 @@ font-weight: 550;
   .about-title {
     font-size: 60px;
   }
+
   .blog-CTA-link {
     margin-left: auto;
     margin-right: auto;
