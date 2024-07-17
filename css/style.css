@@ -1362,7 +1362,9 @@ iconify-icon {
     margin-right: auto;
     display: inline-block;
   }
-
+ .product-link-button {
+    width: 80%;
+ }
 
 }
 
