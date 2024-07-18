@@ -254,6 +254,35 @@ img {
 
 
 
+/*===== Subscribe List =====*/
+.subscribe-button {
+  /* width: 80%; */
+  margin-top: -135px;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #000000;
+}
+
+.subscribe-description {
+  margin-top: -110px;
+  margin-left: 2.7px;
+  font-size: 14px;
+}
+
+.coming-soon {
+  color: #ffdc16;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #2f2f2f 50%);
+
+}
+
+.subscribe {
+  color: #ffdc16;
+  font-weight: 800;
+}
+
+
+
+
 /*===== HOME =====*/
 .home {
   position: relative;
@@ -719,6 +748,7 @@ iconify-icon {
 .highlight-twitch {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #6a00ce 50%);
 }
+
 .highlight-GTA {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #274300 50%);
 }
@@ -751,7 +781,7 @@ iconify-icon {
   background: #ffd814;
   border: #ffce09 1px solid;
   /* border-radius: .375rem; */
-  border-radius:2.375rem;
+  border-radius: 2.375rem;
   box-sizing: border-box;
   color: #0f1d12;
   cursor: pointer;
@@ -1362,9 +1392,10 @@ iconify-icon {
     margin-right: auto;
     display: inline-block;
   }
- .product-link-button {
+
+  .product-link-button {
     width: 80%;
- }
+  }
 
 }
 
