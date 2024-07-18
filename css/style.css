@@ -268,10 +268,6 @@ img {
   font-size: 14px;
 }
 
-.coming-soon {
-  color: #ffdc16;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #2f2f2f 50%);
-}
 
 .subscribe {
   color: #ffdc16;
@@ -732,23 +728,8 @@ iconify-icon {
 }
 
 .highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #000000 50%);
-}
-
-.highlight-share {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #060d3d 50%);
-}
-
-.highlight-fuels {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #5c030d 50%);
-}
-
-.highlight-twitch {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #6a00ce 50%);
-}
-
-.highlight-GTA {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #274300 50%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #2f2f2f 50%);
+ color: var(--fifteenth-color)
 }
 
 /* Blog - Product Link */
@@ -1258,6 +1239,7 @@ iconify-icon {
 .contact-title {
   font-size: 50px;
   margin-top: -90px;
+  color: var(--fifteenth-color);
 }
 
 .contact-input {
