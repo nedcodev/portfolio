@@ -744,11 +744,13 @@ iconify-icon {
 
 }
 
-.blog-single-page-footer {
+.disclosure-footer {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  font-size: 13px;
+  width: 90%;
+  font-size: 12px;
+  font-weight: 100;
+  color: #474747;
 }
 
 .highlight {
