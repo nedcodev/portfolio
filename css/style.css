@@ -201,9 +201,14 @@ img {
 .nav-logo {
   color: var(--fifteenth-color);
   font-size: 1.2rem;
-  width: 30%;
-  padding-top:20px ;
+  /* width: 15%; */
+  margin-top:50px ;
   transform: translate(5px) rotate(-2deg);
+
+  max-width: 1%;
+  min-width: 200px;
+  height: auto;
+  
 }
 
 /* .nav-code {
