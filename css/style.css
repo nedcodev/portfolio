@@ -190,11 +190,19 @@ img {
   color: var(--thirteenth-color);
   /* border: #c00000 solid 1px; */
 }
-
+/* 
 .nav-logo {
-  /* color: var(--sixth-color); */
   color: var(--fifteenth-color);
   font-size: 1.2rem;
+  transform: translate(5px) rotate(-2deg);
+} */
+
+
+.nav-logo {
+  color: var(--fifteenth-color);
+  font-size: 1.2rem;
+  width: 30%;
+  padding-top:20px ;
   transform: translate(5px) rotate(-2deg);
 }
 
