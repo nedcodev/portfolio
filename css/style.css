@@ -190,6 +190,7 @@ img {
   color: var(--thirteenth-color);
   /* border: #c00000 solid 1px; */
 }
+
 /* 
 .nav-logo {
   color: var(--fifteenth-color);
@@ -202,13 +203,15 @@ img {
   color: var(--fifteenth-color);
   font-size: 1.2rem;
   /* width: 15%; */
-  margin-top:50px ;
-  transform: translate(5px) rotate(-2deg);
+  margin-top: 25px;
+  margin-left: -25px;
+
+  /* transform: translate(5px) rotate(-2deg); */
 
   max-width: 1%;
-  min-width: 200px;
+  min-width: 180px;
   height: auto;
-  
+
 }
 
 /* .nav-code {
