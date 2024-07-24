@@ -1288,7 +1288,7 @@ iconify-icon {
 .contact-input {
   width: 100%;
   font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
+  /* font-weight: var(--font-semi); */
   padding: 1rem;
   border-radius: .3rem;
   border: 1.5px solid var(--second-color);
@@ -1318,12 +1318,12 @@ iconify-icon {
   margin-top: -10px;
 }
 
-.contact-twitter {
+/* .contact-twitter {
   color: var(--fourth-color);
   display: block;
   text-align: center;
-}
-
+} */
+/* 
 .contact-twitter-link {
   color: var(--twelfth-color);
   text-decoration: none;
@@ -1335,7 +1335,27 @@ iconify-icon {
   color: var(--seventh-color);
   background-size: 105% 100%;
   transition-duration: 0.9s;
+} */
+
+.contact-instagram {
+  color: var(--fourth-color);
+  display: block;
+  text-align: center;
 }
+
+.contact-instagram-link {
+  color: #d54157;
+  text-decoration: none;
+  font-weight: var(--font-semi);
+  background: linear-gradient(transparent 10%, #d43871 0) left/0% 100% no-repeat;
+}
+
+.contact-instagram-link:hover {
+  color: var(--seventh-color);
+  background-size: 105% 100%;
+  transition-duration: 0.9s;
+}
+
 
 .char-count {
   font-size: var(--smaller-font-size);
