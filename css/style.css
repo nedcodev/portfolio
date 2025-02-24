@@ -207,9 +207,6 @@ img {
   /* width: 15%; */
   margin-top: 25px;
   margin-left: -25px;
-
-  /* transform: translate(5px) rotate(-2deg); */
-
   max-width: 1%;
   min-width: 180px;
   height: auto;
@@ -218,42 +215,23 @@ img {
 
 .nav-logo2 {
   position: absolute;
-
   font-size: 1.2rem;
   /* width: 15%; */
   margin-top: 25px;
   margin-left: -25px;
   z-index: 3;
-
-  /* transform: translate(5px) rotate(-2deg); */
-
   max-width: 1%;
   min-width: 180px;
   height: auto;
     animation: flicker 2.5s infinite alternate;
-
-  
-
-  
+/* transform: translate(5px) rotate(-2deg); */
 }
-
-/*img {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-}
-.nav-logo {
-  z-index: 1;
-}
-.nav-logo2 {
-  z-index: 3;
-}*/
-
 
 @keyframes flicker {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
@@ -261,7 +239,6 @@ img {
         opacity: 1;
     }
 }
-
 
 
 /* .nav-code {
