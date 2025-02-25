@@ -144,7 +144,7 @@ img {
   .nav-menu {
     position: fixed;
     text-align: center;
-    top: 3rem;
+    top: 4rem;
     right: -100%;
     /* width: 25%; */
     height: auto;
@@ -255,6 +255,7 @@ img {
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 
