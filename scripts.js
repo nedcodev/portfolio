@@ -102,3 +102,35 @@ const countCharacters = () => {
 if (textArea) {
   textArea.addEventListener('input', countCharacters);
 }
+
+/*===== BACK TO TOP BUTTON =====*/
+// Create the back to top button element
+const createBackToTopButton = () => {
+  const button = document.createElement('button');
+  button.innerHTML = '<i class="uil uil-arrow-up"></i>';
+  button.className = 'back-to-top-btn';
+  button.id = 'backToTopBtn';
+  button.title = 'Back to top';
+  document.body.appendChild(button);
+  return button;
+};
+
+// Initialize the button
+const backToTopBtn = createBackToTopButton();
+
+// Show/hide the button based on scroll position
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    backToTopBtn.classList.add('show');
+  } else {
+    backToTopBtn.classList.remove('show');
+  }
+});
+
+// Scroll to top when the button is clicked
+backToTopBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
