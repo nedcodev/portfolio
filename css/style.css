@@ -223,7 +223,49 @@ img {
   max-width: 1%;
   min-width: 180px;
   height: auto;
-    animation: flicker 2.5s infinite alternate;
+    animation: flicker 15s infinite alternate;
+/* transform: translate(5px) rotate(-2deg); */
+}
+
+.nav-logo3 {
+  position: absolute;
+  font-size: 1.2rem;
+  /* width: 15%; */
+  margin-top: 25px;
+  margin-left: -25px;
+  z-index: 3;
+  max-width: 1%;
+  min-width: 180px;
+  height: auto;
+/*    animation: flicker 10s infinite alternate;*/
+/* transform: translate(5px) rotate(-2deg); */
+}
+
+.nav-logo4 {
+  position: absolute;
+  font-size: 1.2rem;
+  /* width: 15%; */
+  margin-top: 25px;
+  margin-left: -25px;
+  z-index: 3;
+  max-width: 1%;
+  min-width: 180px;
+  height: auto;
+    animation: flicker 10s linear reverse infinite;
+/* transform: translate(5px) rotate(-2deg); */
+}
+
+.nav-logo5 {
+  position: absolute;
+  font-size: 1.2rem;
+  /* width: 15%; */
+  margin-top: 25px;
+  margin-left: -25px;
+  z-index: 3;
+  max-width: 1%;
+  min-width: 180px;
+  height: auto;
+    animation: flicker 20s infinite alternate;
 /* transform: translate(5px) rotate(-2deg); */
 }
 
