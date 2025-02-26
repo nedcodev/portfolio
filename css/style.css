@@ -213,10 +213,62 @@ img {
   z-index: 1;
 }
 
-.nav-logo2 {
+/*===== N =====*/
+.nav-logo1 {
   position: absolute;
   font-size: 1.2rem;
   /* width: 15%; */
+  margin-top: 25px;
+  margin-left: -25px;
+  z-index: 3;
+  max-width: 1%;
+  min-width: 180px;
+  height: auto;
+    animation: flicker 12s infinite reverse;
+/* transform: translate(5px) rotate(-2deg); */
+}
+
+/*===== E =====*/
+
+.nav-logo2 {
+  position: absolute;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  margin-left: -25px;
+  z-index: 3;
+  max-width: 1%;
+  min-width: 180px;
+  height: auto;
+    animation: flicker 18s infinite alternate;
+}
+
+.nav-logo3 {
+  position: absolute;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  margin-left: -25px;
+  z-index: 3;
+  max-width: 1%;
+  min-width: 180px;
+  height: auto;
+}
+
+.nav-logo4 {
+  position: absolute;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  margin-left: -25px;
+  z-index: 3;
+  max-width: 1%;
+  min-width: 180px;
+  height: auto;
+}
+
+/*===== O =====*/
+
+.nav-logo5 {
+  position: absolute;
+  font-size: 1.2rem;
   margin-top: 25px;
   margin-left: -25px;
   z-index: 3;
@@ -224,62 +276,75 @@ img {
   min-width: 180px;
   height: auto;
     animation: flicker 15s infinite alternate;
-/* transform: translate(5px) rotate(-2deg); */
 }
 
-.nav-logo3 {
+.nav-logo6 {
   position: absolute;
   font-size: 1.2rem;
-  /* width: 15%; */
   margin-top: 25px;
   margin-left: -25px;
   z-index: 3;
   max-width: 1%;
   min-width: 180px;
   height: auto;
-/*    animation: flicker 10s infinite alternate;*/
-/* transform: translate(5px) rotate(-2deg); */
 }
 
-.nav-logo4 {
+.nav-logo7 {
   position: absolute;
   font-size: 1.2rem;
-  /* width: 15%; */
   margin-top: 25px;
   margin-left: -25px;
   z-index: 3;
   max-width: 1%;
   min-width: 180px;
   height: auto;
-    animation: flicker 10s linear reverse infinite;
-/* transform: translate(5px) rotate(-2deg); */
 }
 
-.nav-logo5 {
-  position: absolute;
-  font-size: 1.2rem;
-  /* width: 15%; */
-  margin-top: 25px;
-  margin-left: -25px;
-  z-index: 3;
-  max-width: 1%;
-  min-width: 180px;
-  height: auto;
-    animation: flicker 20s infinite alternate;
-/* transform: translate(5px) rotate(-2deg); */
-}
+
 
 @keyframes flicker {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+   0% {
+opacity: 0.4;
+}
+5% {
+opacity: 0.5;
+}
+10% {
+opacity: 0.6;
+}
+15% {
+opacity: 0.85;
+}
+25% {
+opacity: 0.5;
+}
+30% {
+opacity: 1;
+}
+35% {
+opacity: 0.1;
+}
+40% {
+opacity: 0.25;
+}
+45% {
+opacity: 0.5;
+}
+60% {
+opacity: 1;
+}
+70% {
+opacity: 0.85;
+}
+80% {
+opacity: 0.4;
+}
+90% {
+opacity: 0.5;
+}
+100% {
+opacity: 1;
+}
 }
 
 
