@@ -742,7 +742,7 @@ iconify-icon {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 13px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 1px -3px 0px inset;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
+  border-radius: 8px;
 
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -755,9 +755,12 @@ iconify-icon {
 .blog-thumbnail-border:hover,
 .blog-thumbnail-border:focus,
 .blog-thumbnail-border:active {
-  /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6); */
-  box-shadow: rgba(100, 100, 100, 0.08) 0px 0px 0px 2px, rgba(100, 100, 100, 0.08) 0px 4px 6px -1px, rgba(100, 100, 100, 0.08) 0px 1px 0px inset;
+/*   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6); */
+/*  box-shadow: rgba(100, 100, 100, 0.08) 0px 0px 0px 2px, rgba(100, 100, 100, 0.08) 0px 4px 6px -1px, rgba(100, 100, 100, 0.08) 0px 1px 0px inset;*/
+box-shadow: rgba(255, 220, 22, 1) 0px 0px 0px 2px, rgba(255, 220, 22, 1) 0px 4px 6px -1px, rgba(255, 220, 22, 1) 0px 1px 0px;
+
 }
+
 
 
 
