@@ -139,7 +139,9 @@ img {
 
 /*===== NAV =====*/
 .nav {
-  height: var(--header-height);
+/*  height: var(--header-height);*/
+margin-top: 4px;
+margin-bottom: 6px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -150,7 +152,7 @@ img {
   .nav-menu {
     position: fixed;
     text-align: center;
-    top: 4rem;
+    top: 7rem;
     right: -100%;
     /* width: 25%; */
     height: auto;
@@ -1974,7 +1976,7 @@ ul li:before {
 
   .nav-list {
     display: flex;
-    padding-top: 0;
+    padding-top: 35px;
   }
 
   .nav-item {
