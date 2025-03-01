@@ -14,6 +14,11 @@
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
 
+   --rating-max: 5;
+  --rating-content: '★★★★★';
+  --rating-inactive-color: #3e3e3e;
+  --rating-background: #FFDD00;
+
   /* ===== MARGIN-BOTTOM ===== */
   --mb-2: 1rem;
   --mb-4: 2rem;
@@ -1504,6 +1509,36 @@ box-shadow: rgba(255, 220, 22, 1) 0px 0px 0px 2px, rgba(255, 220, 22, 1) 0px 4px
     text-align: start !important;
     text-align-last: auto !important;
 }
+
+
+/* RATING STARS */
+.rating {
+  display: inline-block;
+/*  font-size: 20px;*/
+}
+
+.rating::before {
+  --rating-percent: calc(var(--rating-value) / var(--rating-max) * 100%);
+  content: var(--rating-content);
+  background: linear-gradient(90deg, var(--rating-background) var(--rating-percent), var(--rating-inactive-color) var(--rating-percent));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* NEED TO WORK ON IT... */
+  .favorites-container-bio {
+/*   position: fixed;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  margin-right: auto;
+  margin-left: auto;*/
+
+  /* bring your own prefixes */
+/*  transform: translate(-50%, -50%);*/
+  }
+
+
 
 /*ul {
   position: relative;
