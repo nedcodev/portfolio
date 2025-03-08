@@ -1443,6 +1443,8 @@ box-shadow: rgba(255, 220, 22, 1) 0px 0px 0px 2px, rgba(255, 220, 22, 1) 0px 4px
   color: var(--fourth-color);
   margin-bottom: var(--mb-2);
   margin-top: -10px;
+  white-space: pre-wrap;
+    word-break: keep-all;
 }
 
 .favorites-title-arrow {
