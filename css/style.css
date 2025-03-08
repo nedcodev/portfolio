@@ -114,7 +114,7 @@ img {
 
 .section-title {
   font-size: var(--h2-font-size);
-  margin-top: -50px;
+  margin-top: -20px;
   margin-bottom: var(--mb-4);
   text-align: center;
 }
@@ -1763,7 +1763,7 @@ ul li:before {
 /*===== CONTACT =====*/
 .contact-title {
   font-size: 50px;
-  margin-top: -90px;
+  margin-top: -60px;
   color: var(--fifteenth-color);
 }
 
@@ -1906,6 +1906,8 @@ ul li:before {
   .home-title {
     font-size: 50px;
     margin-bottom: var(--mb-1);
+  margin-top: 30px;
+
   }
 
   .about-title {
@@ -2172,6 +2174,7 @@ ul li:before {
   .home-title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-1);
+  margin-top: 1px;
   }
 
   .contact-title {
