@@ -771,9 +771,15 @@ iconify-icon {
 
 /*===== BLOG =====*/
 
+.blog {
+  padding: 2rem;
+}
+
 .blog-thumbnail-border {
   /*  padding: 40px 0px 40px 25px;*/
-  padding: 40px 0px 40px 0px;
+  /* padding: 40px 0px 40px 0px; */
+  /* padding: 5px -5px -5px -5px; */
+
 
   /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 13px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 1px -3px 0px inset; */
   margin-left: auto;
