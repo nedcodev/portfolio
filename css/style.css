@@ -1007,6 +1007,14 @@ box-shadow: rgba(255, 220, 22, 1) 0px 0px 0px 2px, rgba(255, 220, 22, 1) 0px 4px
   display: flex;
 }
 
+.blog-date-container {
+  padding-top: 10px;
+  font-size: 12px;
+  margin-left: 10%;
+  /* margin-right: 50%; */
+  /* border: 1px solid #000000; */
+}
+
 .blog-date-section {
   padding-top: 10px;
   font-size: 12px;
@@ -1017,6 +1025,8 @@ box-shadow: rgba(255, 220, 22, 1) 0px 0px 0px 2px, rgba(255, 220, 22, 1) 0px 4px
   display: inline-block;
   /* height:-5px; */
 }
+
+
 
 .blog-date-page {
   color: var(--fourth-color);
