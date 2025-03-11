@@ -1927,6 +1927,201 @@ ul li:before {
   margin-top: -10px;
 }
 
+/* 
+* FAVORITES SECTION IMPROVEMENTS
+* Add this to the end of your style.css file
+*/
+
+/* ===== FAVORITES SECTION ENHANCEMENTS ===== */
+
+/* Better visual hierarchy for favorites sections */
+.favorites-img-title {
+  border-bottom: 1px solid rgba(255, 220, 22, 0.2);
+  padding-bottom: 12px;
+  transition: border-color 0.3s ease;
+}
+
+.favorites-img-title:hover {
+  border-color: rgba(255, 220, 22, 0.5);
+}
+
+/* Improve the summary styling */
+.favorites-link-title {
+  color: var(--fourth-color);
+  transition: color 0.3s ease, transform 0.3s ease;
+  padding: 6px 0;
+  display: inline-block;
+}
+
+.favorites-link-title:hover {
+  color: var(--fifteenth-color);
+  transform: translateX(5px);
+}
+
+/* .favorites-link-title:focus {
+  outline: 2px solid var(--fifteenth-color);
+  outline-offset: 2px;
+} */
+
+/* Improve tree navigation for better readability */
+.tree-nav__item {
+  margin-bottom: 4px;
+}
+
+.tree-nav__item-title {
+  padding: 4px 0;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.tree-nav__item-title:hover {
+  color: var(--fifteenth-color);
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.tree-nav__item-title:focus {
+  outline: 2px solid var(--fifteenth-color);
+  outline-offset: 2px;
+}
+
+/* Enhanced rating stars for better visibility */
+.rating {
+  display: inline-block;
+  position: relative;
+  padding-right: 8px;
+}
+
+.rating::before {
+  --rating-percent: calc(var(--rating-value) / var(--rating-max) * 100%);
+  content: var(--rating-content);
+  background: linear-gradient(90deg, var(--rating-background) var(--rating-percent), var(--rating-inactive-color) var(--rating-percent));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Improve lists in favorites section */
+.favorites-lists-font {
+  color: var(--fourth-color);
+  font-size: 15px;
+  transition: color 0.3s ease;
+  display: block;
+  padding: 3px 0;
+}
+
+.favorites-lists-font:hover {
+  color: var(--fifteenth-color);
+}
+
+/* Enhanced open/close animations for details */
+details[open]>summary {
+  margin-bottom: 10px;
+}
+
+details>summary {
+  transition: margin 0.3s ease;
+}
+
+/* Mobile improvements for favorites */
+@media screen and (max-width: 576px) {
+  .favorites-link-title {
+    font-size: 1.2rem;
+  }
+
+  .tree-nav__item-title {
+    font-size: 16px;
+    line-height: 2.5rem;
+  }
+
+  .favorites-lists-font {
+    font-size: 14px;
+  }
+
+  .rating {
+    font-size: 0.9em;
+  }
+
+  .tree-nav__item .tree-nav__item {
+    margin-left: 1.6rem;
+  }
+
+  .tree-nav__item.is-expandable>.tree-nav__item-title {
+    padding-left: 1.8rem;
+  }
+}
+
+/* Animation for favorited items */
+@keyframes pulse-favorite {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.favorites-highlight {
+  position: relative;
+}
+
+.favorites-highlight::after {
+  content: "";
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--fifteenth-color);
+  animation: pulse-favorite 2s infinite;
+}
+
+/* Improved container for better spacing */
+#favorites-collections {
+  margin-top: 20px;
+}
+
+/* More appealing favorites header */
+.favorites-title {
+  position: relative;
+}
+
+.favorites-title .about-title-color {
+  position: relative;
+}
+
+.favorites-title .about-title-color::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--fifteenth-color);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.favorites-title:hover .about-title-color::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Better bio section */
+.favorites-bio {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
 /*===== FOOTER =====*/
 .footer {
   display: fixed;
