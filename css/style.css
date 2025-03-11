@@ -443,7 +443,7 @@ img {
 .active::after {
   position: absolute;
   content: '';
-  height: 45px;
+  height: 47px;
   width: 100%;
   left: -4px;
   top: .3rem;
@@ -488,7 +488,7 @@ img {
   height: 50px;
   border-radius: 50%;
   background-color: var(--fifteenth-color, #4070F4);
-  color: #00000;
+  /* color: #00000; */
   border: none;
   cursor: pointer;
   display: flex;
@@ -1958,6 +1958,7 @@ ul li:before {
   transform: translateX(5px);
 }
 
+
 /* .favorites-link-title:focus {
   outline: 2px solid var(--fifteenth-color);
   outline-offset: 2px;
@@ -2096,7 +2097,7 @@ details>summary {
   position: relative;
 }
 
-.favorites-title .about-title-color::after {
+/* .favorites-title .about-title-color::after {
   content: "";
   position: absolute;
   bottom: -5px;
@@ -2107,12 +2108,24 @@ details>summary {
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.3s ease;
+} */
+
+.favorites-title .about-title-color::after {
+  position: absolute;
+  content: '';
+  height: 47px;
+  width: 100%;
+  left: -4px;
+  top: 3.3rem;
+  background-image: url(../img/navbar_brush4.png);
+  background-size: 100% 100%;
+  opacity: 80%;
 }
 
-.favorites-title:hover .about-title-color::after {
+/* .favorites-title:hover .about-title-color::after {
   transform: scaleX(1);
   transform-origin: left;
-}
+} */
 
 /* Better bio section */
 .favorites-bio {
