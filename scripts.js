@@ -78,7 +78,7 @@ document.addEventListener('click', (event) => {
 /*===== CONTACT-TEXTAREA =====*/
 let textArea = document.getElementById('textbox');
 let characterCounter = document.getElementById('char_count');
-const maxNumOfChars = 100;
+const maxNumOfChars = 250; // Updated from 100 to 250
 
 const countCharacters = () => {
   if (!textArea) return; // Guard clause if element doesn't exist
@@ -87,11 +87,11 @@ const countCharacters = () => {
   let counter = maxNumOfChars - numOfEnteredChars;
   
   if (characterCounter) {
-    characterCounter.textContent = counter + '/100';
+    characterCounter.textContent = counter + '/250'; // Updated from /100 to /250
 
     if (counter < 0) {
       characterCounter.style.color = 'var(--ninth-color)';
-    } else if (counter < 20) {
+    } else if (counter < 50) { // Updated from 20 to 50
       characterCounter.style.color = 'var(--fifteenth-color)';
     } else {
       characterCounter.style.color = 'var(--second-color)';
@@ -101,6 +101,10 @@ const countCharacters = () => {
 
 if (textArea) {
   textArea.addEventListener('input', countCharacters);
+  // Set maxlength attribute
+  textArea.setAttribute('maxlength', maxNumOfChars);
+  // Initialize counter on page load
+  countCharacters();
 }
 
 /*===== BACK TO TOP BUTTON =====*/
