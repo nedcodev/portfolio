@@ -2,15 +2,21 @@
 <html lang="en">
 
 <head>
+  <!-- Meta tags for character set and responsive behavior -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font preconnect for performance optimization -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet and favicon -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" type="image/png" href="./img/favicon.ico" />
-  <meta name="p:domain_verify" content="e3b1d962e4fb8d9743a73038bff9eb11" />
+
+  <!-- Icon library for UI elements -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <title>Projects - NEDCODE</title>
 </head>
@@ -19,54 +25,59 @@
   <!--===== HEADER =====-->
   <header class="l-header">
     <nav class="nav bd-grid">
-      
-            <div class="nav-logo">
+
+      <!-- Logo components - Each letter of NEDCODE is a separate image for animation effects -->
+      <!-- Main full logo -->
+      <div class="nav-logo">
         <a href="index.html">
-          <img src="img/full-logo.png" alt="" >
+          <img src="img/full-logo.png" alt="NEDCODE Logo">
         </a>
       </div>
+
+      <!-- Individual letters for logo animation -->
       <div class="nav-logo1">
         <a href="index.html">
-          <img src="img/logo-ned-n.png" alt="" >
+          <img src="img/logo-ned-n.png" alt="N">
         </a>
       </div>
 
       <div class="nav-logo2">
         <a href="index.html">
-          <img src="img/logo-ned-e.png" alt="" >
+          <img src="img/logo-ned-e.png" alt="E">
         </a>
       </div>
 
       <div class="nav-logo3">
         <a href="index.html">
-          <img src="img/logo-ned-d.png" alt="" >
+          <img src="img/logo-ned-d.png" alt="D">
         </a>
       </div>
 
       <div class="nav-logo4">
         <a href="index.html">
-          <img src="img/logo-code-c.png" alt="" >
+          <img src="img/logo-code-c.png" alt="C">
         </a>
       </div>
 
       <div class="nav-logo5">
         <a href="index.html">
-          <img src="img/logo-code-o.png" alt="" >
+          <img src="img/logo-code-o.png" alt="O">
         </a>
       </div>
 
       <div class="nav-logo6">
         <a href="index.html">
-          <img src="img/logo-code-d.png" alt="" >
+          <img src="img/logo-code-d.png" alt="D">
         </a>
       </div>
 
       <div class="nav-logo7">
         <a href="index.html">
-          <img src="img/logo-code-e.png" alt="" >
+          <img src="img/logo-code-e.png" alt="E">
         </a>
       </div>
-      
+
+      <!-- Navigation menu -->
       <div class="nav-menu" id="nav-menu">
         <ul class="nav-list">
           <li class="nav-item"><a href="index.html" class="nav-link ">HOME</a></li>
@@ -79,32 +90,26 @@
           <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
         </ul>
       </div>
-      <!-- <div class="nav-toggle" id="nav-toggle">
-        <i class="uil uil-align-right"></i>
-      </div> -->
 
-      <!--===== MENU ICON =====-->
-<div class="nav-toggle" id="nav-toggle">
-      <svg class="nav-toggle hamRotate ham1" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')">
-  <path
-        class="line top"
-        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-  <path
-        class="line middle"
-        d="m 30,50 h 40" />
-  <path
-        class="line bottom"
-        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
-</svg>
-</div>
+      <!--===== MENU ICON (Hamburger animation for mobile) =====-->
+      <div class="nav-toggle" id="nav-toggle">
+        <svg class="nav-toggle hamRotate ham1" viewBox="0 0 100 100" width="50"
+          onclick="this.classList.toggle('active')">
+          <path class="line top"
+            d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+          <path class="line middle" d="m 30,50 h 40" />
+          <path class="line bottom"
+            d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+        </svg>
+      </div>
 
     </nav>
   </header>
 
   <main class="l-main">
-    <!--===== PROJECTS =====-->
-    <section class=" bd-grid" id="about">
-      <!-- Change about-data name to each it's own title -->
+    <!--===== PROJECTS SECTION =====-->
+    <section class="bd-grid" id="about">
+      <!-- Main title for the projects section -->
       <div class="project-title">
         <h1 class="about-title section-title">
           What I've
@@ -112,40 +117,40 @@
         </h1>
       </div>
 
-      <!--===== AI Novel Pro =====-->
-      <section class="project section " id="projects">
+      <!--===== PROJECT: AI Novel Pro =====-->
+      <section class="project section" id="ainovelpro">
         <div class="projects-img-title">
-          <a href="https://ainovelpro.com" target="_blank" class="project-link-title ">
+          <!-- Project title with icon -->
+          <a href="https://ainovelpro.com" target="_blank" class="project-link-title">
             <div class="projects-title-arrow">
               <i class="uil uil-angle-right"></i>
             </div>
             AI Novel Pro
           </a>
+          <!-- Project thumbnail image -->
           <a href="https://ainovelpro.com" target="_blank">
             <div class="projects-img">
-              <img src="img/ainovelpro.gif" alt="">
+              <img src="img/ainovelpro.gif" alt="AI Novel Pro screenshot">
             </div>
           </a>
+          <!-- Project date information -->
           <div class="blog-date-section">
             <div class="blog-posted-page">Date:</div>
             <div class="blog-date-page">July 2024</div>
             <br>
           </div>
         </div>
+        <!-- Project description -->
         <p class="projects-img-description">
-          Leveraging AI to Write Fiction & Non-Fiction: Join the AI Novel Writers Community to Get Access to ALL Custom GPT Models, Courses and Masterclass.
+          Leveraging AI to Write Fiction & Non-Fiction: Join the AI Novel Writers Community to Get Access to ALL Custom
+          GPT Models, Courses and Masterclass.
         </p>
+        <!-- Project links -->
         <p class="projects-img-marketplace">
-          <!-- <a href="https://github.com/nedmarafawi" target="_blank" class="iconify-icon">
-            <iconify-icon icon="mingcute:github-line"></iconify-icon>
-          </a> -->
           <a href="https://try.carrd.co/dsl7b5fx" target="_blank" class="project-link">Carrd</a>
         </p>
 
-        <!-- <p class="projects-img-marketplace">
-          <a href="https://ainovelpro.com/" target="_blank" class="project-link">ainovelpro.com</a>
-        </p> -->
-
+        <!-- Technologies used -->
         <div class="projects-language">
           <span>HTML</span>
         </div>
@@ -155,9 +160,9 @@
       </section>
 
       <!--===== Kittapb =====-->
-      <section class="project section " id="projects">
+      <section class="project section" id="kittapb">
         <div class="projects-img-title">
-          <a href="https://kittapb.netlify.app" target="_blank" class="project-link-title ">
+          <a href="https://kittapb.netlify.app" target="_blank" class="project-link-title">
             <div class="projects-title-arrow">
               <i class="uil uil-angle-right"></i>
             </div>
@@ -165,22 +170,19 @@
           </a>
           <a href="https://kittapb.netlify.app" target="_blank">
             <div class="projects-img">
-              <img src="img/kittapb-thumbnail.gif" alt="">
+              <img src="img/kittapb-thumbnail.gif" alt="Kitta portfolio screenshot">
             </div>
           </a>
         </div>
         <div class="blog-date-section">
-            <div class="blog-posted-page">Date:</div>
-            <div class="blog-date-page">April 2023</div>
-            <br>
-          </div>
+          <div class="blog-posted-page">Date:</div>
+          <div class="blog-date-page">April 2023</div>
+          <br>
+        </div>
         <p class="projects-img-description">
           A Graphics Designer Portfolio.
         </p>
         <p class="projects-img-marketplace">
-          <!-- <a href="https://github.com/nedmarafawi" target="_blank" class="iconify-icon">
-            <iconify-icon icon="mingcute:github-line"></iconify-icon>
-          </a> -->
           <a href="https://github.com/nedmarafawi/kittapb_portfolio" target="_blank" class="project-link">GitHub</a>
         </p>
         <div class="projects-language">
@@ -199,9 +201,9 @@
 
 
       <!--===== TripleW =====-->
-      <section class="project section " id="projects">
+      <section class="project section" id="triplew">
         <div class="projects-img-title">
-          <a href="https://github.com/nedmarafawi/TripleW-NFT-web-app" target="_blank" class="project-link-title ">
+          <a href="https://github.com/nedmarafawi/TripleW-NFT-web-app" target="_blank" class="project-link-title">
             <div class="projects-title-arrow">
               <i class="uil uil-angle-right"></i>
             </div>
@@ -209,18 +211,18 @@
           </a>
           <a href="https://triplew-nft.netlify.app/" target="_blank">
             <div class="projects-img">
-              <img src="img/tripleNFT.gif" alt="">
+              <img src="img/tripleNFT.gif" alt="TripleW NFT screenshot">
             </div>
           </a>
         </div>
         <div class="blog-date-section">
-            <div class="blog-posted-page">Date:</div>
-            <div class="blog-date-page">January 2022</div>
-            <br>
-          </div>
+          <div class="blog-posted-page">Date:</div>
+          <div class="blog-date-page">January 2022</div>
+          <br>
+        </div>
         <p class="projects-img-description">
-          TRIPLEW #01 is an NFT project consisting of 50 randomly generated three-word combination. Each piece is a
-          unique and really funny.
+          TRIPLEW #01 is an NFT project consisting of 50 randomly generated three-word combination. Each piece is unique
+          and really funny.
         </p>
         <p class="projects-img-marketplace">
           <a href="https://github.com/nedmarafawi/TripleW-NFT-web-app" target="_blank" class="project-link">GitHub</a>
@@ -240,9 +242,9 @@
       </section>
 
       <!--===== FlaminGoo =====-->
-      <section class="project section " id="projects">
+      <section class="project section" id="flamingoo">
         <div class="projects-img-title">
-          <a href="https://github.com/nedmarafawi/flamingoo" target="_blank" class="project-link-title ">
+          <a href="https://github.com/nedmarafawi/flamingoo" target="_blank" class="project-link-title">
             <div class="projects-title-arrow">
               <i class="uil uil-angle-right"></i>
             </div>
@@ -250,17 +252,18 @@
           </a>
           <a href="https://github.com/nedmarafawi/flamingoo" target="_blank">
             <div class="projects-img">
-              <img src="img/flamingooo.gif" alt="">
+              <img src="img/flamingooo.gif" alt="FlaminGoo app screenshot">
             </div>
           </a>
         </div>
-         <div class="blog-date-section">
-            <div class="blog-posted-page">Date:</div>
-            <div class="blog-date-page">September 2021</div>
-            <br>
-          </div>
+        <div class="blog-date-section">
+          <div class="blog-posted-page">Date:</div>
+          <div class="blog-date-page">September 2021</div>
+          <br>
+        </div>
         <p class="projects-img-description">
-          Best souvenir stories from across the world. </p>
+          Best souvenir stories from across the world.
+        </p>
         <p class="projects-img-marketplace">
           <a href="https://github.com/nedmarafawi/flamingoo" target="_blank" class="project-link">GitHub</a>
         </p>
@@ -290,33 +293,38 @@
         </div>
       </section>
 
-      <!--===== DigitalDen =====-->
-      <section class="project section " id="projects">
+      <!--===== PROJECT: DigitalDen =====-->
+      <section class="project section" id="digitalden">
         <div class="projects-img-title">
-          <a href="https://github.com/nedmarafawi/DigitalDen" target="_blank" class="project-link-title ">
+          <!-- Project title with icon -->
+          <a href="https://github.com/nedmarafawi/DigitalDen" target="_blank" class="project-link-title">
             <div class="projects-title-arrow">
               <i class="uil uil-angle-right"></i>
             </div>
             DigitalDen
           </a>
+          <!-- Project thumbnail image -->
           <a href="https://github.com/nedmarafawi/DigitalDen" target="_blank">
             <div class="projects-img">
-              <img src="img/digitalden-thumbnail.png" alt="">
+              <img src="img/digitalden-thumbnail.png" alt="DigitalDen project screenshot">
             </div>
           </a>
         </div>
+        <!-- Project date information -->
         <div class="blog-date-section">
-            <div class="blog-posted-page">Date:</div>
-            <div class="blog-date-page">September 2021</div>
-            <br>
-          </div>
+          <div class="blog-posted-page">Date:</div>
+          <div class="blog-date-page">September 2021</div>
+          <br>
+        </div>
+        <!-- Project description -->
         <p class="projects-img-description">
-          Wearables e-commerce web design collaboration. </p>
-        <p class="projects-img-marketplace">
-          <a href="https://github.com/nedmarafawi/DigitalDen" target="_blank" class="project-link"> <a
-              href="https://github.com/nedmarafawi/flamingoo" target="_blank" class="project-link">GitHub</a>
-          </a>
+          Wearables e-commerce web design collaboration.
         </p>
+        <!-- Project links -->
+        <p class="projects-img-marketplace">
+          <a href="https://github.com/nedmarafawi/DigitalDen" target="_blank" class="project-link">GitHub</a>
+        </p>
+        <!-- Technologies used -->
         <div class="projects-language">
           <span>React.Js</span>
         </div>
@@ -331,10 +339,11 @@
         </div>
       </section>
 
- <!--===== Valkyrie Theme =====-->
-      <section class="project section " id="projects">
+      <!--===== Valkyrie Theme =====-->
+      <section class="project section" id="valkyrie">
         <div class="projects-img-title">
-          <a href="https://marketplace.visualstudio.com/items?itemName=nedcode.valkyrie-dark" target="_blank" class="project-link-title ">
+          <a href="https://marketplace.visualstudio.com/items?itemName=nedcode.valkyrie-dark" target="_blank"
+            class="project-link-title">
             <div class="projects-title-arrow">
               <i class="uil uil-angle-right"></i>
             </div>
@@ -342,22 +351,20 @@
           </a>
           <a href="https://marketplace.visualstudio.com/items?itemName=nedcode.valkyrie-dark" target="_blank">
             <div class="projects-img">
-              <!-- <img src="/img/javascript.png" alt=""> -->
-              <img src="img/theme.gif" alt="">
+              <img src="img/theme.gif" alt="Valkyrie Theme screenshot">
             </div>
           </a>
         </div>
         <div class="blog-date-section">
-            <div class="blog-posted-page">Date:</div>
-            <div class="blog-date-page">June 2021</div>
-            <br>
-          </div>
+          <div class="blog-posted-page">Date:</div>
+          <div class="blog-date-page">June 2021</div>
+          <br>
+        </div>
         <p class="projects-img-description">
           A dark green theme for VS Code based on the Monokai Classic theme.
         </p>
         <p class="projects-img-marketplace">
-          <a href="https://github.com/nedmarafawi/valkyrie-vscode" target="_blank"
-            class="project-link">GitHub</a>
+          <a href="https://github.com/nedmarafawi/valkyrie-vscode" target="_blank" class="project-link">GitHub</a>
         </p>
         <div class="projects-language">
           <span>VS Code</span>
@@ -370,35 +377,31 @@
     </section>
   </main>
 
-
-
-  <!--===== FOOTER =====-->
+  <!--===== FOOTER SECTION =====-->
   <footer class="footer">
+    <!-- Social media links with accessibility labels -->
     <div class="footer-social">
-      <a href="https://www.threads.net/@nedcodev/" target="_blank" class="footer-icon">
+      <a href="https://www.threads.net/@nedcodev/" target="_blank" class="footer-icon" aria-label="Threads">
         <iconify-icon icon="mingcute:threads-line"></iconify-icon>
       </a>
-      <a href="https://www.instagram.com/nedcodev/" target="_blank" class="footer-icon">
-        <!-- <i class="uil uil-instagram"></i> -->
+      <a href="https://www.instagram.com/nedcodev/" target="_blank" class="footer-icon" aria-label="Instagram">
         <iconify-icon icon="uil:instagram"></iconify-icon>
       </a>
-      <a href="https://www.youtube.com/@NEDCODEV" target="_blank" class="footer-icon">
+      <a href="https://www.youtube.com/@NEDCODEV" target="_blank" class="footer-icon" aria-label="YouTube">
         <iconify-icon icon="tdesign:logo-youtube"></iconify-icon>
       </a>
-      <a href="https://www.tiktok.com/@nedcodev" target="_blank" class="footer-icon">
+      <a href="https://www.tiktok.com/@nedcodev" target="_blank" class="footer-icon" aria-label="TikTok">
         <iconify-icon icon="bxl:tiktok"></iconify-icon>
       </a>
-      <!-- <a href="https://www.pinterest.com/nedcode/" target="_blank" class="footer-icon">
-        <iconify-icon icon="ph:pinterest-logo-bold"></iconify-icon>
-      </a> -->
-      <a href="https://twitter.com/nedcodev" target="_blank" class="footer-icon">
-          <iconify-icon icon="fa6-brands:x-twitter"></iconify-icon>
-        </a>
-      <a href="https://github.com/nedcodev" target="_blank" class="footer-icon">
-        <!-- <i class="uil uil-github-alt"></i> -->
+      <a href="https://twitter.com/nedcodev" target="_blank" class="footer-icon" aria-label="Twitter">
+        <iconify-icon icon="fa6-brands:x-twitter"></iconify-icon>
+      </a>
+      <a href="https://github.com/nedcodev" target="_blank" class="footer-icon" aria-label="GitHub">
         <iconify-icon icon="mingcute:github-line"></iconify-icon>
       </a>
     </div>
+
+    <!-- Copyright and disclosure information -->
     <p>&#169; Designed & Developed by Ned, 2025
       <br>
       <br>
@@ -409,14 +412,11 @@
     </p>
   </footer>
 
-  <!--===== SCRIPTS =====-->
+  <!--===== JAVASCRIPT FILES =====-->
+  <!-- Core site functionality -->
   <script src="scripts.js"></script>
+  <!-- Icon library for social media and UI elements -->
   <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
-  <script>
-    pintrk('track', 'pagevisit', {
-      event_id: 'eventId0001'
-    });
-  </script>
 </body>
 
 </html>
