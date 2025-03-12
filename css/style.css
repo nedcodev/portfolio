@@ -1980,7 +1980,7 @@ ul li:before {
 }
 
 .tree-nav__item-title:focus {
-  outline: 2px solid var(--fifteenth-color);
+  outline: 1px solid var(--fifteenth-color);
   outline-offset: 2px;
 }
 
@@ -2010,9 +2010,9 @@ ul li:before {
   padding: 3px 0;
 }
 
-.favorites-lists-font:hover {
+/* .favorites-lists-font:hover {
   color: var(--fifteenth-color);
-}
+} */
 
 /* Enhanced open/close animations for details */
 details[open]>summary {
@@ -2114,8 +2114,8 @@ details>summary {
   position: absolute;
   content: '';
   height: 47px;
-  width: 100%;
-  left: -4px;
+  width: 115%;
+  left: -12px;
   top: 3.3rem;
   background-image: url(../img/navbar_brush4.png);
   background-size: 100% 100%;
